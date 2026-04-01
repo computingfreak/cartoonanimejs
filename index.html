@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StorySpark Kids — Anime.js Immersive Stories</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>StorySpark Kids</h1>
+      <p>
+        Select a story concept, then play a rich animated sequence built with
+        layered timelines, particles, camera pans, and character motion.
+      </p>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Pick a Story</h2>
+        <label for="story-select">Story options for immersive storytelling:</label>
+        <select id="story-select"></select>
+        <button id="play-btn">Play Scene</button>
+        <article id="story-copy"></article>
+      </section>
+
+      <section class="stage-wrap">
+        <div id="stage" aria-label="animation stage">
+          <div class="sky"></div>
+          <div class="sun"></div>
+          <div class="cloud cloud-a"></div>
+          <div class="cloud cloud-b"></div>
+          <div class="mountain mountain-left"></div>
+          <div class="mountain mountain-right"></div>
+          <div class="ground"></div>
+          <div class="river"></div>
+
+          <div id="hero" class="character">
+            <span class="eye left"></span>
+            <span class="eye right"></span>
+            <span class="smile"></span>
+          </div>
+
+          <div id="friend" class="character friend">
+            <span class="eye left"></span>
+            <span class="eye right"></span>
+            <span class="smile"></span>
+          </div>
+
+          <div id="star-burst"></div>
+          <div id="caption">Ready to begin ✨</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
