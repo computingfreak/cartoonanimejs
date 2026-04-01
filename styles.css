@@ -36,7 +36,8 @@ main {
 }
 
 #story-select,
-#play-btn {
+#play-btn,
+#sound-btn {
   width: 100%;
   margin-top: 0.7rem;
   border-radius: 12px;
@@ -52,6 +53,12 @@ main {
   border: none;
   font-weight: 700;
   cursor: pointer;
+}
+
+#sound-btn {
+  background: #f3f7ff;
+  color: #213455;
+  font-weight: 600;
 }
 
 #story-copy {

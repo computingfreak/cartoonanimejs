@@ -15,6 +15,7 @@ Each option includes:
 - a short narrative summary,
 - cinematic beat list,
 - and a custom caption used in the animation finale.
+- a unique visual theme + motion profile so each story plays differently.
 
 ## Run locally
 
@@ -29,4 +30,6 @@ Then open <http://localhost:8080>.
 ## Notes
 
 - The animation focuses on layered timelines (character arcs, environment motion, particle bursts, and caption timing).
+- Each story now applies distinct scene theming (sky/ground/river), movement intensity, and particle behavior.
+- Lightweight procedural sound effects are generated with Web Audio API and can be toggled on/off.
 - Content is designed to feel "Pixar-like" in emotion and pacing while remaining original.
